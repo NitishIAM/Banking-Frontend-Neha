@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { NgForm } from '@angular/forms';
+import { FormControl, FormGroup, NgForm, Validators } from '@angular/forms';
 import { loginModel } from '../Model/login';
-import { LoginServiceService } from '../services/login/login-service.service';
+import { LoginServiceService} from '../services/login/login-service.service';
 
 
 @Component({
@@ -14,6 +14,9 @@ export class RegisterComponent {
 
   constructor(private service:LoginServiceService){}
 
+
+
+      
   Registration(data:NgForm){
   this.service.registration(data.value).subscribe(
     (res)=>{

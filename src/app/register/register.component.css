@@ -1,10 +1,10 @@
 .main{
-    background-image: linear-gradient(to left,rgb(183, 241, 183),rgb(164, 164, 233));
+    background-image: linear-gradient(to left,rgb(181, 222, 241),rgb(164, 164, 233));
     max-height: 99.8vh !important;
     color: #fff;
 }
 .container{
-    background-image: linear-gradient(to top left,rgb(121, 181, 121),rgb(81, 81, 177));
+    background-image: linear-gradient(to top left,rgb(121, 134, 181),rgb(81, 81, 177));
     overflow-y: scroll;
     border-radius: 5px;
 }
